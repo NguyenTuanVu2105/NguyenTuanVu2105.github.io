@@ -114,7 +114,7 @@ div.box-content {
 
 .box-content h2::before,
 .box-content h2 {
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 
 @keyframes text {
@@ -143,21 +143,21 @@ div.box-content {
 }
 
 .box-content p:nth-child(3) {
-    animation: textP1 5s ease forwards;
+    animation: textP1 2s ease forwards;
     animation-delay: 5.5s;
     transform-origin: left;
     transform: scaleX(0);
 }
 
 .box-content p:nth-child(4) {
-    animation: textP1 4.5s ease forwards;
-    animation-delay: 6.5s;
+    animation: textP1 3.5s ease forwards;
+    animation-delay: 7.5s;
     transform-origin: left;
     transform: scaleX(0);
 }
 
 .box-content p:nth-child(5) {
-    animation: textP1 5.5s ease forwards;
+    animation: textP1 6.5s ease forwards;
     animation-delay: 11s;
     transform-origin: left;
     transform: scaleX(0);
